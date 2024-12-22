@@ -54,7 +54,7 @@ TextureImporter:
       213: 3868492254007989470
     second: GameOverScreen-Sheet_16
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -74,6 +74,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,10 +107,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -136,6 +142,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -516,6 +534,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      GameOverScreen-Sheet_0: 8554246570463574066
+      GameOverScreen-Sheet_1: -233215727748087950
+      GameOverScreen-Sheet_10: -4165120774557283237
+      GameOverScreen-Sheet_11: -5811898138115563063
+      GameOverScreen-Sheet_12: -7250055228425835783
+      GameOverScreen-Sheet_13: -2610025879677115879
+      GameOverScreen-Sheet_14: -5486228820541361830
+      GameOverScreen-Sheet_15: -7271538690888568739
+      GameOverScreen-Sheet_16: 3868492254007989470
+      GameOverScreen-Sheet_2: 6212445797948907911
+      GameOverScreen-Sheet_3: 3536053271059442492
+      GameOverScreen-Sheet_4: -24485973198105884
+      GameOverScreen-Sheet_5: 1141557272334111405
+      GameOverScreen-Sheet_6: 6947284288572199585
+      GameOverScreen-Sheet_7: -6267518437433790862
+      GameOverScreen-Sheet_8: -2823654901363596419
+      GameOverScreen-Sheet_9: 2165042100381449653
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
